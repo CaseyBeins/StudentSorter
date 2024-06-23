@@ -19,13 +19,13 @@ public class Main {
         for (Student student : students) {
             System.out.println(student);
         }
-
+          // Sorts by name using custom selection sort
         System.out.println("\nSorted by Name:");
         SelectionSort.selectionSort(students, new NameComparator());
         for (Student student : students) {
             System.out.println(student);
         }
-
+        // Sorts by roll number using custom selection sort
         System.out.println("\nSorted by Roll Number:");
         SelectionSort.selectionSort(students, new RollNoComparator());
         for (Student student : students) {
